@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testng" parallel="classes" thread-count="3">
+
+
+    <test name="testNg_Example">
+        <classes>
+            <class name="runner.login.TestRunLoginNegative"/>
+        </classes>
+    </test>
+
+</suite>
