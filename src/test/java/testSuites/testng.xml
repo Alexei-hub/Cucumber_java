@@ -5,7 +5,7 @@
 
     <test name="testNg_Example">
         <classes>
-            <class name="runner.login.TestRunLoginNegative"/>
+            <class name="ForTest"/>
         </classes>
     </test>
 
