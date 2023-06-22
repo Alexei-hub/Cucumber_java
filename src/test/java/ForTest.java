@@ -4,6 +4,6 @@ public class ForTest {
 
     @Test
     public void testMethod() {
-        System.out.println("Work!");
+        System.out.println("Working!");
     }
 }
