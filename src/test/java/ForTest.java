@@ -13,7 +13,6 @@ public class ForTest {
     @Test
     public void testMethod() throws MalformedURLException, InterruptedException {
         ChromeOptions chromeOptions = new ChromeOptions();
-        chromeOptions.setCapability("browserVersion", "67");
         WebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), chromeOptions);
         driver.get("http://www.google.com");
         sleep(40000);
